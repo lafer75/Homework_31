@@ -6,18 +6,18 @@ public class Main {
     public static void main(String[] args) {
 
         // Додавання записів
-        StudentDAO.addStudent("Tom", "tom@gmail.com");
-        StudentDAO.addStudent("Bob", "bob@gmail.com");
-        StudentDAO.addStudent("Jack", "jack@gmail.com");
-        StudentDAO.addStudent("Bill", "bill@gmail.com");
+        StudentDAO.addStudent("Maria", "Maria475@gmail.com");
+        StudentDAO.addStudent("Mike", "Mike562@gmail.com");
+        StudentDAO.addStudent("Oleg", "Oleg4614f7@gmail.com");
+        StudentDAO.addStudent("Anna", "Anna457q@gmail.com");
 
         // Отримання всіх записів
         StudentDAO.getAllStudents();
 
         // Отримання записів за іменем
-        StudentDAO.getStudentByName("Bob");
+        StudentDAO.getStudentByName("Maria");
 
-        StudentDAO.getStudentByName("John");
+        StudentDAO.getStudentByName("Anna");
 
         // Отримання записів за id
         StudentDAO.getStudentById(2);
@@ -25,7 +25,7 @@ public class Main {
         StudentDAO.getStudentById(134);
 
         // Оновлення запису за id (ім'я та email)
-        StudentDAO.updateStudentById(2, "Phil", "phil@gmail.com");
+        StudentDAO.updateStudentById(2, "Tom", "tom153@gmail.com");
 
         StudentDAO.getAllStudents();
 
