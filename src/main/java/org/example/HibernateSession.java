@@ -20,9 +20,9 @@ public class HibernateSession {
         }
 
         configuration.setProperty(Environment.DRIVER, "org.postgresql.Driver")
-                .setProperty(Environment.URL, "jdbc:postgresql://localhost:5432/postgres")
-                .setProperty(Environment.USER, "postgres")
-                .setProperty(Environment.PASS, "24102007")
+                .setProperty(Environment.URL, "jdbc:postgresql://localhost:5432/DATABASE_NAME")
+                .setProperty(Environment.USER, "USER")
+                .setProperty(Environment.PASS, "PASSWORD")
                 .setProperty(Environment.SHOW_SQL, "true")
                 .setProperty(Environment.DIALECT, "org.hibernate.dialect.PostgreSQLDialect")
                 .setProperty(Environment.CURRENT_SESSION_CONTEXT_CLASS, "thread")
